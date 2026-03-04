@@ -30,7 +30,6 @@ class Ennemis(pg.sprite.Sprite):
 
         # Calcul de la distance au prochain waypoint
         dist = self.movement.length()
-        print(dist)
 
         # Vérifier si la distance est inférieure à la vitesse pour éviter de dépasser le waypoint
         if dist >= self.speed:
